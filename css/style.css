@@ -25,21 +25,61 @@ main {
 }
 
 section#celular {
-    height: 750px;
-    width: 380px;
+    height: 627px;
+    width: 311px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background:url(../pacote-d013/imagens/frame-iphone.png) no-repeat;
-    
 }
 
 iframe#home {
     position: relative;
     top: 10.6%;
     left: 5.7%;
-    width: 263.5px;
-    height: 467.5px;
+    width: 267.5px;
+    height: 481.5px;
 
+}
+
+#redes-sociais {
+    text-align: right;
+    margin-right: 40px;
+    padding-top: 30px;
+}
+
+#redes-sociais img {
+    width: 50px;
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.315);
+    box-sizing: border-box;
+}
+
+
+#redes-sociais #logo-home:hover {
+    border: 2px solid #808080;
+}
+
+#redes-sociais #logo-instagram:hover {
+    border: 2px solid #a705a7cc;
+}
+
+#redes-sociais #logo-x:hover {
+    border: 2px solid #73c6e2;
+}
+
+#redes-sociais #logo-youtube:hover {
+    border: 2px solid #ff0000;
+}
+
+#redes-sociais #logo-github:hover {
+    border: 2px solid #04ce04;
+}
+
+#redes-sociais img:hover {
+    transform: translate(-3.5px, -3.5px);
+    transition: 0.5s border .03;
+    box-shadow: 7px 7px 1px rgba(0, 0, 0, 0.315);
 }
