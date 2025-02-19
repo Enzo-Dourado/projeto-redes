@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+img {
+    width: 100vw;
+    display: block;
+}
+
+a#instagram {
+    display: block;
+    background-image: linear-gradient(to right, #800080, #b45b87, orange, #ffd900);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+a#instagram:hover {
+    background-image: linear-gradient(to right, #500050, #7a3e5c, #a76d01,#9b8402);
+    transition: .5s;
+    transform: translate(0px, -1px);
+    box-shadow: 1px 1px 10px #500050;
+}
+
+a#x {
+    display: block;
+    background-color: #57bdec;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+a#x:hover {
+    background-color: #5daad6;
+    transition: .5s;
+    transform: translate(0px, -1px);
+    box-shadow: 1px 1px 10px #5daad6;
+}
+
+a#youtube {
+    display: block;
+    background-color: #8b0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+a#youtube:hover {
+    background-color: #4b0101;
+    transition: .5s;
+    transform: translate(0px, -1px);
+    box-shadow: 1px 1px 10px #4b0101
+}
+
+a#github {
+    display: block;
+    background-image: linear-gradient(to right, #006600, #008000, transparent);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+a#github:hover {
+    background-image: linear-gradient(to right, #014201, #004e00b9, transparent);
+    transition: .5s;
+    transform: translate(0px, -1px);
+    box-shadow: 1px 1px 10px #014201;
+}
